@@ -1,0 +1,8 @@
+<h1>Screens!</h1>
+
+<% @screens.each do |screen| %>
+<div>
+  <%= screen.description %>
+  <%= image_tag screen.picture.to_s %>
+</div>
+<% end %>
